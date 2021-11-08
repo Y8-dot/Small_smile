@@ -8,12 +8,12 @@
     android:textAlignment="center"
     tools:context=".father1">
 
+
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn5"
-            android:layout_width="176dp"
-            android:layout_height="57dp"
+            android:layout_width="97dp"
+            android:layout_height="37dp"
             android:background="#4C62E1"
-            android:fontFamily="@font/pacifico"
             android:onClick="onClick"
             android:text="Back"
             android:textAllCaps="false"
@@ -21,20 +21,20 @@
             android:textSize="25sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.076"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.924" />
+            app:layout_constraintVertical_bias="0.971" />
 
         <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="367dp"
-        android:layout_height="176dp"
-        android:layout_marginTop="4dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/titulo" />
+            android:id="@+id/imageView6"
+            android:layout_width="367dp"
+            android:layout_height="176dp"
+            android:layout_marginTop="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/titulo" />
 
         <TextView
             android:id="@+id/textView3"
@@ -52,8 +52,8 @@
 
         <TextView
             android:id="@+id/textView4"
-            android:layout_width="157dp"
-            android:layout_height="110dp"
+            android:layout_width="148dp"
+            android:layout_height="81dp"
             android:text="Es un habitante normal de la cavidad bucal"
             android:textAlignment="center"
             android:textColor="@color/black"
@@ -108,10 +108,10 @@
             android:layout_height="72dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.937"
+            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.333"
+            app:layout_constraintVertical_bias="0.338"
             app:srcCompat="@drawable/toothbrush" />
 
 

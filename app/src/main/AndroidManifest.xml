@@ -10,6 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Small_Smile_beta">
         <activity
+            android:name=".activity_father24"
+            android:exported="false" />
+        <activity
+            android:name=".activity_father23"
+            android:exported="false" />
+        <activity
+            android:name=".activity_father22"
+            android:exported="false" />
+        <activity
+            android:name=".activity_consecit"
+            android:exported="false" />
+        <activity
+            android:name=".activity_causascit"
+            android:exported="false" />
+        <activity
+            android:name=".activity_wicit"
+            android:exported="false" />
+        <activity
+            android:name=".father2_1"
+            android:exported="false" />
+        <activity
             android:name=".father4"
             android:exported="false" />
         <activity

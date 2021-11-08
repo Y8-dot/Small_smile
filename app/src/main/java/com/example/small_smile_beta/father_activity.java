@@ -18,13 +18,19 @@ public class father_activity extends AppCompatActivity {
        Intent  myIntent = null;
 
         switch(view.getId()){
+
+            case R.id.btn6:
+                myIntent = new Intent(father_activity.this, father1.class)
+                break;
+
             case R.id.btn8:
-                myIntent = new Intent(father_activity.this, father1.class);
+                myIntent = new Intent(father_activity.this, father2.class);
                 break;
 
             case R.id.btn9:
                 myIntent = new Intent(father_activity.this, MenuActivity.class);
                 break;
+
 
         }
         startActivity(myIntent);

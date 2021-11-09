@@ -34,7 +34,6 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
-
                 <TextView
                     android:id="@+id/textView32"
                     android:layout_width="match_parent"
@@ -73,18 +72,39 @@
                     android:layout_weight="1"
                     android:layout_marginTop="80dp">
 
-                    <Button
-                        android:id="@+id/button7"
-                        android:layout_width="125dp"
-                        android:layout_height="wrap_content"
-                        android:text="Back" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnnn8"
+                        android:layout_width="176dp"
+                        android:layout_height="38dp"
+                        android:layout_gravity=""
+                        android:background="#7C7C7C"
+                        android:onClick="onClick"
+                        android:text="Regresar"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.497"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="HardcodedText" />
 
-                    <Button
-                        android:id="@+id/button8"
-                        android:layout_marginLeft="160dp"
-                        android:layout_width="125dp"
-                        android:layout_height="wrap_content"
-                        android:text="Siguiente" />
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/btnnn9"
+                        android:layout_width="176dp"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="60dp"
+                        android:background="#7C7C7C"
+                        android:onClick="onClick"
+                        android:text="Siguiente"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.497"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="HardcodedText" />
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>

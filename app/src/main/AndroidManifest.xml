@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Small_Smile_beta">
         <activity
+            android:name=".activity_father_caries"
+            android:exported="false" />
+        <activity
+            android:name=".activity_father_diagnostic"
+            android:exported="false" />
+        <activity
+            android:name=".activity_father_pcit"
+            android:exported="false" />
+        <activity
             android:name=".activity_father24"
             android:exported="false" />
         <activity

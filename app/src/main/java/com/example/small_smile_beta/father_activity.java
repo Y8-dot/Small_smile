@@ -20,7 +20,7 @@ public class father_activity extends AppCompatActivity {
         switch(view.getId()){
 
             case R.id.btn6:
-                myIntent = new Intent(father_activity.this, father1.class)
+                myIntent = new Intent(father_activity.this, father1.class);
                 break;
 
             case R.id.btn8:

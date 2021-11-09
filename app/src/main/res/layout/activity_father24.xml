@@ -77,18 +77,40 @@
                     android:layout_weight="1"
                     android:orientation="horizontal">
 
-                    <Button
-                        android:id="@+id/button11"
-                        android:layout_width="150dp"
-                        android:layout_height="wrap_content"
-                        android:text="back" />
 
-                    <Button
+                    <androidx.appcompat.widget.AppCompatButton
+                        android:id="@+id/button11"
+                        android:layout_width="176dp"
+                        android:layout_height="38dp"
+                        android:background="#7C7C7C"
+                        android:onClick="onClick"
+                        android:text="Siguiente"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.497"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="HardcodedText" />
+
+                    <androidx.appcompat.widget.AppCompatButton
                         android:id="@+id/button12"
-                        android:layout_marginLeft="90dp"
-                        android:layout_width="150dp"
-                        android:layout_height="wrap_content"
-                        android:text="Menú " />
+                        android:layout_width="176dp"
+                        android:layout_height="38dp"
+                        android:layout_marginLeft="60dp"
+                        android:background="#7C7C7C"
+                        android:onClick="onClick"
+                        android:text="Menú principal"
+                        android:textAllCaps="false"
+                        android:textColor="#000000"
+                        android:textSize="16sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.497"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="HardcodedText" />
+
                 </LinearLayout>
 
             </LinearLayout>

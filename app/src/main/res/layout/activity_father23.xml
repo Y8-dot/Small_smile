@@ -26,6 +26,7 @@
                 android:textSize="25dp"
                 android:textAlignment="center"
                 android:textStyle="bold"
+                android:textAllCaps="true"
                 android:text="4. Evaluar el riesgo de caries en el niño" />
 
             <LinearLayout
@@ -75,18 +76,41 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="120dp"
                 android:orientation="horizontal">
-                <Button
-                    android:id="@+id/button9"
-                    android:layout_width="179dp"
-                    android:layout_height="wrap_content"
-                    android:text="Back" />
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button9"
+                    android:layout_width="176dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity=""
+                    android:background="#7C7C7C"
+                    android:onClick="onClick"
+                    android:text="Regresar"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="HardcodedText" />
+
+
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button10"
-                    android:layout_width="179dp"
-                    android:layout_marginLeft="70dp"
-                    android:layout_height="wrap_content"
-                    android:text="Siguiente" />
+                    android:layout_width="176dp"
+                    android:layout_height="38dp"
+                    android:layout_marginLeft="60dp"
+                    android:background="#7C7C7C"
+                    android:onClick="onClick"
+                    android:text="Siguiente"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
 
 

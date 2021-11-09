@@ -74,21 +74,43 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <Button
-                    android:id="@+id/button2"
-                    android:layout_width="100dp"
-                    android:layout_marginTop="15dp"
-                    android:layout_height="40dp"
-                    android:layout_weight="1"
-                    android:text="Back" />
 
-                <Button
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button2"
+                    android:layout_width="176dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity=""
+                    android:layout_marginTop="10dp"
+                    android:background="#7C7C7C"
+                    android:onClick="onClick"
+                    android:text="Regresar"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="HardcodedText" />
+
+                <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button3"
-                    android:layout_marginTop="15dp"
-                    android:layout_width="100dp"
-                    android:layout_height="40dp"
-                    android:layout_weight="1"
-                    android:text="Causas" />
+                    android:layout_width="176dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity=""
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="50dp"
+                    android:background="#7C7C7C"
+                    android:onClick="onClick"
+                    android:text="Siguiente"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textSize="16sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.497"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="HardcodedText" />
             </LinearLayout>
 
 

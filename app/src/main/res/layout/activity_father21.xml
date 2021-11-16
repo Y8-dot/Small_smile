@@ -31,26 +31,28 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="300dp"
                 android:orientation="horizontal"
-                android:layout_marginTop="100dp">
+                android:layout_marginTop="20dp">
 
 
                 <TextView
                     android:id="@+id/textView6"
                     android:layout_width="206dp"
-                    android:layout_height="match_parent"
+                    android:layout_height="164dp"
                     android:layout_weight="1"
-                    android:text="Evitar compartir utensilios de comida entre el infante y su familia"
+                    android:layout_gravity="center"
+                    android:text="Evitar compartir utensilios de comida entre el infante y su familia."
                     android:textColor="@color/black"
                     android:textSize="25dp" />
 
                 <ImageView
                     android:id="@+id/imageView2"
-                    android:layout_width="242dp"
-                    android:layout_height="178dp"
+                    android:layout_width="218dp"
+                    android:layout_height="231dp"
                     android:layout_weight="1"
-                    app:srcCompat="@drawable/small_smill__112" />
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/catorce" />
 
             </LinearLayout>
 

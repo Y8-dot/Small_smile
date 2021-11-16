@@ -23,7 +23,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="#01685F"
-                android:textSize="25dp"
+                android:textAllCaps="true"
+                android:textSize="22dp"
                 android:textAlignment="center"
                 android:textStyle="bold"
                 android:text="5 Evitar conductas alimenticias promotoras de caries" />
@@ -33,32 +34,39 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <ImageView
-                    android:id="@+id/imageView12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
-
                 <TextView
                     android:id="@+id/textView39"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="-Evitar el consumo repetitivo de cualquier líquido que contenga carbohidratos fermentados por medio de biberon o tazas entrenadoras"
+                    android:layout_marginTop="12dp"
+                    android:text="-Evitar el consumo repetitivo de cualquier líquido que contenga carbohidratos fermentados por medio de biberón o tazas entrenadoras."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="25dp" />
 
-                <TextView
-                    android:id="@+id/textView38"
-                    android:layout_marginTop="10dp"
+                <ImageView
+                    android:id="@+id/imageView12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="-No se debe acostar a los niños con contenido de carbohidratos fermentales"
+                    android:layout_marginTop="12dp"
+                    app:srcCompat="@drawable/_0" />
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="-No se debe acostar a los niños con contenido de carbohidratos fermentables."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="25dp" />
+
+                <ImageView
+                    android:id="@+id/imageView34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    app:srcCompat="@drawable/veintiuno" />
 
                 <TextView
                     android:id="@+id/textView40"
@@ -69,11 +77,18 @@
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="25dp"
-                    android:text="-Evitar refrigerios entre comidas y exposiciones prolongadas de alimentos, jugos u otras bebidas que contengan carbohidratos" />
+                    android:text="-Evitar refrigerios entre comidas y exposiciones prolongadas de alimentos, jugos u otras bebidas que contengan carbohidratos." />
+
+                <ImageView
+                    android:id="@+id/imageView35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/veintidos" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="12dp"
                     android:layout_weight="1"
                     android:orientation="horizontal">
 

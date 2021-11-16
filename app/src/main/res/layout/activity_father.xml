@@ -8,177 +8,192 @@
     tools:context=".father_activity">
 
 
-    <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="601dp"
-        android:layout_gravity="center_vertical"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="288dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:orientation="vertical">
+            android:fontFamily="@font/pacifico"
+            android:text="Menú"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp" />
 
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="288dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="50dp"
-                android:fontFamily="@font/pacifico"
-                android:text="Menú"
-                android:textAlignment="center"
-                android:textAllCaps="false"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.048" />
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical">
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn4"
-                android:layout_width="176dp"
-                android:layout_height="57dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="12dp"
-                android:background="#FFB84E"
-                android:onClick="onClick"
-                android:text="¿Qué es CIT?"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn5"
-                android:layout_width="176dp"
-                android:layout_height="57dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="#FFB84E"
-                android:onClick="onClick"
-                android:text="Factores de riesgo"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:id="@+id/textView59"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="¿Qué es la CIT?"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn6"
-                android:layout_width="176dp"
-                android:layout_height="57dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="#FFB84E"
-                android:onClick="onClick"
-                android:text="Streptococcus mutans"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                <ImageButton
+                    android:id="@+id/imageButton2"
+                    android:layout_width="398dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:onClick="onClick"
+                    android:background="@drawable/boton_redondo"
+                    android:baselineAligned="false"
+                    android:contentDescription="@string/IB"
+                    android:src="@drawable/uno"
+                    tools:ignore="ImageContrastCheck" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn7"
-                android:layout_width="176dp"
-                android:layout_height="57dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="#FFB84E"
-                android:onClick="onClick"
-                android:text="Diagnóstico"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                <TextView
+                    android:id="@+id/textView61"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Factores de riesgo"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn8"
-                android:layout_width="176dp"
-                android:layout_height="57dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="#FFB84E"
-                android:onClick="onClick"
-                android:text="Medidas preventivas"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                <ImageButton
+                    android:id="@+id/imageButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:background="@drawable/boton_redondo"
+                    android:contentDescription="@string/IB"
+                    app:srcCompat="@drawable/dos"
+                    tools:ignore="TextContrastCheck" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn10"
-                android:layout_width="176dp"
-                android:layout_height="57dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="#FFB84E"
-                android:onClick="onClick"
-                android:text="Prevención de la CIT"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="HardcodedText" />
+                <TextView
+                    android:id="@+id/textView73"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Streptococcus mutans"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn11"
-                android:layout_width="176dp"
-                android:layout_height="57dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="#FFB84E"
-                android:onClick="onClick"
-                android:text="Técnicas de cepillado"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="HardcodedText" />
+                <ImageButton
+                    android:id="@+id/imageButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:background="@drawable/boton_redondo"
+                    android:contentDescription="@string/IB"
+                    app:srcCompat="@drawable/tres"
+                    tools:ignore="ImageContrastCheck" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btn9"
-                android:layout_width="176dp"
-                android:layout_height="38dp"
-                android:layout_gravity=""
-                android:layout_marginTop="10dp"
-                android:background="#7C7C7C"
-                android:onClick="onClick"
-                android:text="Regresar"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="HardcodedText" />
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Diagnóstico"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
 
-        </LinearLayout>
-    </ScrollView>
+                <ImageButton
+                    android:id="@+id/imageButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:background="@drawable/boton_redondo"
+                    android:contentDescription="@string/IB"
+                    app:srcCompat="@drawable/cuatro"
+                    tools:ignore="SpeakableTextPresentCheck,ImageContrastCheck" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Medidas preventivas"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:background="@drawable/boton_redondo"
+                    android:contentDescription="@string/IB"
+                    app:srcCompat="@drawable/cinco"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+                <TextView
+                    android:id="@+id/textView76"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Prevención CIT"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:background="@drawable/boton_redondo"
+                    android:contentDescription="@string/IB"
+                    app:srcCompat="@drawable/seis"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="Técnicas de cepillado"
+                    android:textColor="@color/teal_700"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+                <ImageButton
+                    android:id="@+id/imageButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onClick"
+                    android:background="@drawable/boton_redondo"
+                    android:contentDescription="@string/IB"
+                    app:srcCompat="@drawable/siete"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="122dp"
+                    android:onClick="onClick"
+                    android:layout_height="wrap_content"
+                    android:textAllCaps="false"
+                    android:text="Regresar" />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

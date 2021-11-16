@@ -7,102 +7,90 @@
     android:background="#b1e6e6"
     tools:context=".child_activity">
 
-    <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="601dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="288dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/pacifico"
+            android:text="Menú"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.048" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:layout_height="455dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
-                android:layout_width="288dp"
-                android:layout_height="60dp"
-                android:layout_gravity="center"
-                android:fontFamily="@font/pacifico"
-                android:text="Menú"
-                android:textAlignment="center"
-                android:textAllCaps="false"
-                android:textColor="@color/black"
-                android:textSize="34sp"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.048" />
+                android:id="@+id/textView78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:text="¿Qué es la CIT?"
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnn1"
-                android:layout_width="176dp"
-                android:layout_height="57dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="120dp"
-                android:background="#FFB84E"
-                android:onClick="onClick"
-                android:text="¿Qué es CIT?"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/uno" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnn2"
-                android:layout_width="176dp"
-                android:layout_height="57dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="#FFB84E"
-                android:onClick="onClick"
+            <TextView
+                android:id="@+id/textView79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Factores de riesgo"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnn3"
-                android:layout_width="176dp"
-                android:layout_height="57dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"
-                android:background="#FFB84E"
-                android:onClick="onClick"
+            <ImageButton
+                android:id="@+id/imageButton9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/boton_redondo"
+                app:srcCompat="@drawable/dos" />
+
+            <TextView
+                android:id="@+id/textView80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="Recursos de aprendizaje interactivo"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                android:textColor="@color/teal_700"
+                android:textSize="20dp"
+                android:textStyle="bold" />
 
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btnn8"
-                android:layout_width="176dp"
-                android:layout_height="38dp"
-                android:layout_gravity=""
-                android:layout_marginTop="100dp"
-                android:background="#7C7C7C"
-                android:onClick="onClick"
-                android:text="Regresar"
-                android:textAllCaps="false"
-                android:textColor="#000000"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.497"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="HardcodedText" />
+            <ImageButton
+                android:id="@+id/imageButton10"
+                android:background="@drawable/boton_redondo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ocho" />
         </LinearLayout>
-    </ScrollView>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:text="Regresar"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -40,31 +40,55 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
                     android:layout_weight="1"
-                    android:text="-Después de cada alimento (3 veces al día)"
+                    android:text="-Después de cada alimento (3 veces al día)."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="25dp" />
+
+                <ImageView
+                    android:id="@+id/imageView31"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="12dp"
+                    app:srcCompat="@drawable/_5" />
 
                 <TextView
                     android:id="@+id/textView33"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="12dp"
                     android:layout_weight="1"
-                    android:text="-Si el niño se queda dormido mientras se está alimentando, los dientes se deben de limpiar antes de acostar al niño"
+                    android:text="-Si el niño se queda dormido mientras se está alimentando, los dientes se deben de limpiar antes de acostar al niño."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="25dp" />
+
+                <ImageView
+                    android:id="@+id/imageView32"
+                    android:layout_width="match_parent"
+                    android:layout_height="142dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/_6" />
+
                 <TextView
                     android:id="@+id/textView34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
-                    android:text="-En niños con dentición completa se recomienda que en dos de sus tres cepilladas al día se utilice pasta con fluoruro"
+                    android:text="-En niños con dentición completa se recomienda que en dos de sus tres cepilladas al día se utilice pasta con fluoruro."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="25dp" />
+
+                <ImageView
+                    android:id="@+id/imageView33"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/_7" />
 
                 <LinearLayout
                     android:layout_width="match_parent"

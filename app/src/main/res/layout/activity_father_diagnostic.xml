@@ -84,6 +84,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
+                        android:layout_marginRight="8dp"
                         android:text="En esta etapa aparece una mancha blanca con apariencia gis."
                         android:textAlignment="textStart"
                         android:textColor="#0A0B0C"
@@ -123,6 +124,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="12dp"
+                            android:layout_marginLeft="8dp"
                             android:text="-Comienza a romperse o se 'cavita' y la lesión no puede ser revertida."
                             android:textColor="@color/black"
                             android:textSize="25dp" />
@@ -132,6 +134,7 @@
                             android:layout_width="192dp"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
+                            android:layout_marginLeft="8dp"
                             android:text="-Al observar estas lesiones, generalmente son de color café, mientras que las  que han estado más tiempo en la cavidal bucal son más oscuras y en ocasiones casi negras"
                             android:textColor="@color/black"
                             android:textSize="25dp" />
@@ -167,7 +170,7 @@
                     android:layout_width="176dp"
                     android:layout_height="38dp"
                     android:layout_marginTop="8dp"
-                    android:background="#7C7C7C"
+                    android:background="@drawable/roundcorner"
                     android:onClick="onClick"
                     android:text="Regresar"
                     android:textAllCaps="false"

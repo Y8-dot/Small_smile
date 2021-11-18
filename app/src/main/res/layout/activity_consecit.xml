@@ -28,7 +28,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    tools:srcCompat="@tools:sample/avatars" />
+                    app:srcCompat="@drawable/consecuencias" />
 
                 <TextView
                     android:id="@+id/textView16"
@@ -39,22 +39,21 @@
                     android:textAllCaps="true"
                     android:layout_gravity="center"
                     android:textColor="#001CD4"
-                    android:textSize="30dp"
+                    android:textSize="25dp"
                     android:textStyle="bold"/>
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="329dp"
-                android:orientation="vertical"
-                android:layout_marginTop="70dp">
+                android:orientation="vertical">
 
                 <TextView
                     android:id="@+id/textView25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
-                    android:text="      Sensibilidad al comer o beber alimentos"
+                    android:text="      Sensibilidad al comer o beber alimentos."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="20dp"
@@ -65,7 +64,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="       Dolor e inflamación en dientes y encía"
+                    android:text="       Dolor e inflamación en dientes y encía."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="20dp"
@@ -76,7 +75,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="      Fracturas dentales"
+                    android:text="      Fracturas dentales."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="20dp"
@@ -87,7 +86,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="      Infecciones"
+                    android:text="      Infecciones."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="20dp"
@@ -102,20 +101,20 @@
                     android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="      Pérdida total del diente" />
+                    android:text="      Pérdida total del diente." />
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="30dp">
+                android:layout_marginTop="55dp">
 
 
                 <androidx.appcompat.widget.AppCompatButton
                     android:id="@+id/button5"
                     android:layout_width="176dp"
                     android:layout_height="38dp"
-                    android:background="#7C7C7C"
+                    android:background="@drawable/roundcorner"
                     android:onClick="onClick"
                     android:text="Regresar"
                     android:textAllCaps="false"
@@ -131,7 +130,7 @@
                     android:id="@+id/button6"
                     android:layout_width="176dp"
                     android:layout_height="38dp"
-                    android:background="#7C7C7C"
+                    android:background="@drawable/roundcorner"
                     android:onClick="onClick"
                     android:layout_marginLeft="55dp"
                     android:text="Menú principal"

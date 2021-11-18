@@ -244,7 +244,7 @@
                 android:layout_width="176dp"
                 android:layout_height="38dp"
                 android:layout_marginTop="8dp"
-                android:background="#7C7C7C"
+                android:background="@drawable/roundcorner"
                 android:onClick="onClick"
                 android:text="Regresar"
                 android:textAllCaps="false"

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Small_Smile_beta">
         <activity
+            android:name=".activity_menu_mp"
+            android:exported="false" />
+        <activity
             android:name=".activity_father_caries"
             android:exported="false" />
         <activity
@@ -38,9 +41,6 @@
             android:exported="false" />
         <activity
             android:name=".father2_1"
-            android:exported="false" />
-        <activity
-            android:name=".father4"
             android:exported="false" />
         <activity
             android:name=".father3"

@@ -105,10 +105,10 @@
 
                 <ImageView
                     android:id="@+id/imageView4"
-                    android:layout_width="158dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_width="160dp"
+                    android:layout_height="198dp"
                     android:layout_gravity="center"
+                    android:layout_weight="1"
                     app:srcCompat="@drawable/candy" />
 
             </LinearLayout>
@@ -131,10 +131,11 @@
 
                 <ImageView
                     android:id="@+id/imageView38"
-                    android:layout_width="158dp"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1"
+                    android:layout_width="218dp"
+                    android:layout_height="225dp"
+                    android:layout_marginLeft="8dp"
                     android:layout_gravity="center"
+                    android:layout_weight="1"
                     app:srcCompat="@drawable/juice" />
 
             </LinearLayout>

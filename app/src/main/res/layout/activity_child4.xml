@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b1e6e6"
+    tools:context=".activity_child4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tex"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#b1e6e6"
+                android:gravity="center"
+                android:text="Recomendación de juegos"
+                android:textAllCaps="true"
+                android:textColor="#001CD4"
+                android:textSize="28dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Para Apple"
+                android:textAllCaps="true"
+                android:textColor="#01685F"
+                android:textSize="25dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton13"
+                    android:layout_width="34dp"
+                    android:background="@drawable/boton_redondo"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    app:srcCompat="@drawable/juegoios" />
+
+                <ImageButton
+                    android:id="@+id/imageButton14"
+                    android:layout_width="12dp"
+                    android:background="@drawable/boton_redondo"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    app:srcCompat="@drawable/mascotaios" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="Para Android"
+                android:textAllCaps="true"
+                android:textColor="#01685F"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton15"
+                    android:layout_width="34dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/boton_redondo"
+                    android:onClick="onClick"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/_j1" />
+
+                <ImageButton
+                    android:id="@+id/imageButton16"
+                    android:layout_width="34dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/boton_redondo"
+                    android:layout_weight="1"
+                    android:onClick="onClick"
+                    app:srcCompat="@drawable/_j2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton17"
+                    android:layout_width="34dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_redondo"
+                    android:onClick="onClick"
+                    app:srcCompat="@drawable/_j3" />
+
+                <ImageButton
+                    android:id="@+id/imageButton18"
+                    android:layout_width="34dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/boton_redondo"
+                    android:onClick="onClick"
+                    app:srcCompat="@drawable/_j4" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

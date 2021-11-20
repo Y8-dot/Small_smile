@@ -276,6 +276,7 @@
                 android:layout_gravity="center"
                 android:textAlignment="center"
                 android:text="Consulta siempre a un dentista y mantén una alimentación saludable además de una buena higiene oral." />
+
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/botonpcit"
                 android:layout_width="176dp"

@@ -65,49 +65,34 @@
                 android:layout_gravity="center"
                 app:srcCompat="@drawable/_8" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="55dp"
-                android:orientation="horizontal">
-
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/button9"
-                    android:layout_width="176dp"
-                    android:layout_height="38dp"
-                    android:layout_gravity=""
-                    android:background="@drawable/roundcorner"
-                    android:onClick="onClick"
-                    android:text="Regresar"
-                    android:textAllCaps="false"
-                    android:textColor="#000000"
-                    android:textSize="16sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.497"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="HardcodedText" />
-
-
-                <androidx.appcompat.widget.AppCompatButton
-                    android:id="@+id/button10"
-                    android:layout_width="176dp"
-                    android:layout_height="38dp"
-                    android:layout_marginLeft="60dp"
-                    android:background="@drawable/roundcorner"
-                    android:onClick="onClick"
-                    android:text="Siguiente"
-                    android:textAllCaps="false"
-                    android:textColor="#000000"
-                    android:textSize="16sp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.497"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    tools:ignore="HardcodedText" />
-            </LinearLayout>
-
 
         </LinearLayout>
     </ScrollView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button9"
+        android:layout_width="176dp"
+        android:layout_height="38dp"
+        android:layout_gravity=""
+        android:background="@drawable/roundcorner"
+        android:onClick="onClick"
+        android:text="Regresar"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button10"
+        android:layout_width="176dp"
+        android:layout_height="38dp"
+        android:background="@drawable/roundcorner"
+        android:onClick="onClick"
+        android:text="Siguiente"
+        android:textAllCaps="false"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

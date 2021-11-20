@@ -31,6 +31,10 @@ public class child_activity extends AppCompatActivity {
             case R.id.button7:
                 myIntent = new Intent(child_activity.this,MenuActivity.class);
                 break;
+
+            case R.id.imageButton10:
+                myIntent = new Intent(child_activity.this, activity_child4.class);
+                break;
         }
         startActivity(myIntent);
 

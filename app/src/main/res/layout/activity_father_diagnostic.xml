@@ -85,7 +85,7 @@
                         android:layout_marginLeft="5dp"
                         android:layout_weight="1"
                         android:layout_marginRight="8dp"
-                        android:text="En esta etapa aparece una mancha blanca con apariencia gis."
+                        android:text="En esta etapa aparece una mancha blanca con apariencia de gis."
                         android:textAlignment="textStart"
                         android:textColor="#0A0B0C"
                         android:textSize="25dp" />
@@ -125,7 +125,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginLeft="8dp"
                             android:layout_marginTop="12dp"
-                            android:text="🦷Comienza a romperse o se 'cavita' y la lesión no puede ser revertida."
+                            android:text="🦷Comienza a romperse o se ''cavita'' y la lesión no puede ser revertida."
                             android:textColor="@color/black"
                             android:textSize="25dp" />
 

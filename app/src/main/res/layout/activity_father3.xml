@@ -5,4 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#b1e6e6"
-    tools:context=".father3"/>
+    tools:context=".father3">
+
+    <VideoView
+        android:id="@+id/videoView3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="191dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,15 +18,6 @@
             android:layout_gravity="center"
             app:srcCompat="@drawable/small_smill__112" />
 
-        <androidx.appcompat.widget.AppCompatButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="168dp"
-            android:background="@drawable/boton_redondo"
-            android:onClick="onClick"
-            android:text="INICIO"
-            android:textColor="@color/black" />
-
 
     </LinearLayout>
 

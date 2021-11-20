@@ -43,6 +43,7 @@
             android:id="@+id/imageButton11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClick"
             app:srcCompat="@drawable/cinco" />
 
         <TextView
@@ -61,13 +62,14 @@
             android:id="@+id/imageButton12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="onClick"
             app:srcCompat="@drawable/caries_dredondo" />
 
 
     </LinearLayout>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/button3"
+        android:id="@+id/button13"
         android:layout_width="176dp"
         android:layout_height="38dp"
         android:background="@drawable/roundcorner"

@@ -8,8 +8,8 @@
     android:background="#FFFFFF">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="601dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -102,7 +102,7 @@
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="230dp"
+                android:layout_height="279dp"
                 android:layout_marginTop="20dp"
                 android:orientation="horizontal">
 
@@ -124,18 +124,17 @@
                         android:id="@+id/textView44"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textColor="#01685F"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
-                        android:textSize="23dp"
-                        android:textStyle="bold"
                         android:text="¿QUÉ OCASIONA LA CARIES?"
-                         />
+                        android:textColor="#01685F"
+                        android:textSize="23dp"
+                        android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/textView45"
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="352dp"
                         android:layout_marginLeft="8dp"
                         android:layout_marginRight="8dp"
                         android:text="Cuando los dientes entran en contacto con demasiada azúcar ayuda a que las bacterias se multipliquen y los ácidos que estos producen hacen que los dientes se dañen iniciando así la caries."
@@ -171,7 +170,7 @@
                         android:layout_width="251dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
-                        android:text="Dulces                  Galletas"
+                        android:text="🦷Dulces           🦷Galletas"
                         android:textColor="#000000"
                         android:textSize="20dp" />
 
@@ -180,7 +179,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
-                        android:text="Mermeladas        Postres"
+                        android:text="🦷Mermeladas 🦷Postres"
                         android:textColor="#000000"
                         android:textSize="20dp" />
 
@@ -191,7 +190,7 @@
                         android:layout_marginLeft="8dp"
                         android:textColor="#000000"
                         android:textSize="20dp"
-                        android:text="Pasteles              Helados"
+                        android:text="🦷Pasteles        🦷Helados"
               />
                 </LinearLayout>
 

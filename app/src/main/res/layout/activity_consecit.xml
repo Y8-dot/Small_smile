@@ -8,8 +8,8 @@
     android:background="#b1e6e6">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="601dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -53,10 +53,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="50dp"
-                    android:text="      Sensibilidad al comer o beber alimentos."
-                    android:textAlignment="gravity"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text="  🦷Sensibilidad al comer o beber alimentos."
                     android:textColor="#0A0B0C"
-                    android:textSize="20dp"
+                    android:textSize="19dp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -64,8 +65,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="       Dolor e inflamación en dientes y encía."
-                    android:textAlignment="gravity"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:text=" 🦷Dolor e inflamación en dientes y encía."
+                    android:textAlignment="center"
                     android:textColor="#0A0B0C"
                     android:textSize="20dp"
                     android:textStyle="bold" />
@@ -75,7 +78,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="      Fracturas dentales."
+                    android:text="    🦷 Fracturas dentales."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="20dp"
@@ -86,7 +89,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="      Infecciones."
+                    android:text="    🦷Infecciones."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="20dp"
@@ -101,7 +104,7 @@
                     android:textStyle="bold"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="      Pérdida total del diente." />
+                    android:text="    🦷Pérdida total del diente." />
             </LinearLayout>
 
             <LinearLayout

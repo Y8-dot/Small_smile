@@ -24,8 +24,8 @@ public class father_activity extends AppCompatActivity {
                 myIntent = new Intent(father_activity.this, activity_wicit.class);
                 break;
 
-            case R.id.imageButton3:
-                myIntent = new Intent(father_activity.this, father3.class);
+            case R.id.imageButton6:
+                myIntent = new Intent(father_activity.this, activity_father_caries.class);
                 break;
 
             case R.id.imageButton4:
@@ -36,12 +36,16 @@ public class father_activity extends AppCompatActivity {
                 myIntent = new Intent(father_activity.this, activity_father_diagnostic.class);
                 break;
 
-            case R.id.imageButton6:
-                myIntent = new Intent(father_activity.this, father2.class);
+            case R.id.imageButton3:
+                myIntent = new Intent(father_activity.this, father3.class);
                 break;
 
             case R.id.imageButton7:
-                myIntent = new Intent(father_activity.this, activity_father_pcit.class);
+                myIntent = new Intent(father_activity.this, activity_menu_mp.class);
+                break;
+
+            case R.id.imageButton8:
+                myIntent = new Intent(father_activity.this, activity_cepillado.class);
                 break;
 
             case R.id.button8:

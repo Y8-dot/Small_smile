@@ -8,8 +8,8 @@
     tools:context=".activity_father_caries">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="601dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -221,16 +221,18 @@
                         android:textSize="23dp"
                         android:textStyle="bold"
                         android:textAllCaps="true"
-                        android:text="5)Conducto y absceso dental" />
+                        android:text="5) Absceso dental" />
 
                     <TextView
                         android:id="@+id/textView72"
-                        android:layout_width="252dp"
+                        android:layout_width="241dp"
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:text="Si la lesión no ha sido atendida, puede evolucionar en en forma un absceso o acomulación de pus en la raíz del diente."
                         android:textColor="@color/black"
-                        android:textSize="20dp"
-                        android:text="Si el tratamiento del conducto no fue realizado, puede evolucionar y formar un absceso o acomulación de pus en la raíz del diente." />
+                        android:textSize="20dp" />
+
                 </LinearLayout>
 
                 <ImageView

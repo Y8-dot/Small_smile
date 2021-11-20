@@ -8,8 +8,8 @@
     android:background="#b1e6e6">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="601dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -68,8 +68,8 @@
                     android:layout_width="378dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:layout_marginRight="8dp"
-                    android:text="      El consumo de alimentos y bebidas altas en azúcar."
+                    android:layout_marginRight="10dp"
+                    android:text="🦷 El consumo de alimentos y bebidas altas en azúcar."
                     android:textAlignment="textEnd"
                     android:textColor="#0A0B0C"
                     android:textSize="20dp" />
@@ -79,17 +79,18 @@
                     android:layout_width="378dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
-                    android:text="        Malos hábitos habitos de higiene oral."
+                    android:text="🦷Malos hábitos habitos de higiene oral."
                     android:textAlignment="textEnd"
+                    android:layout_marginLeft="17dp"
                     android:textColor="#0A0B0C"
                     android:textSize="20dp" />
                 <TextView
                     android:id="@+id/textView20"
                     android:layout_marginTop="10dp"
                     android:layout_width="378dp"
+                    android:layout_marginLeft="27dp"
                     android:layout_height="wrap_content"
-                    android:text=" Uso inadecuado del cepillo oral."
-                    android:textAlignment="textEnd"
+                    android:text=" 🦷 Uso inadecuado del cepillo oral."
                     android:textColor="#0A0B0C"
                     android:textSize="20dp"/>
 
@@ -109,15 +110,16 @@
                     android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="          No retirar el biberón después de su uso."
+                    android:text="  🦷No retirar el biberón después de su uso."
                     android:textColor="#0A0B0C"
+                    android:layout_marginRight="8dp"
                     android:textSize="20dp"/>
                 <TextView
                     android:id="@+id/textView23"
                     android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="          Lactancia prolongada y frecuente."
+                    android:text="  🦷Lactancia prolongada y frecuente."
                     android:textColor="#0A0B0C"
                     android:textSize="20dp"/>
                 <TextView
@@ -125,7 +127,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="          Malos hábitos de higiene oral familiar."
+                    android:text="  🦷Malos hábitos de higiene oral familiar."
                     android:textColor="#0A0B0C"
                     android:textSize="20dp"
                     tools:ignore="DuplicateIds" />

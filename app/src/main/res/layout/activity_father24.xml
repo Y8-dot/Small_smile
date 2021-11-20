@@ -8,8 +8,8 @@
     android:background="#b1e6e6">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="601dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -40,7 +40,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="12dp"
                     android:layout_marginLeft="8dp"
-                    android:text="-Evitar el consumo repetitivo de cualquier líquido que contenga carbohidratos fermentados por medio de biberón o tazas entrenadoras."
+                    android:text="🦷Evitar el consumo repetitivo de cualquier líquido que contenga carbohidratos fermentados por medio de biberón o tazas entrenadoras."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="25dp" />
@@ -58,7 +58,7 @@
                     android:layout_marginLeft="8dp"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="-No se debe acostar a los niños con contenido de carbohidratos fermentables."
+                    android:text="🦷No se debe acostar a los niños con contenido de carbohidratos fermentables."
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="25dp" />
@@ -80,7 +80,7 @@
                     android:textAlignment="gravity"
                     android:textColor="#0A0B0C"
                     android:textSize="25dp"
-                    android:text="-Evitar refrigerios entre comidas y exposiciones prolongadas de alimentos, jugos u otras bebidas que contengan carbohidratos." />
+                    android:text="🦷Evitar refrigerios entre comidas y exposiciones prolongadas de alimentos, jugos u otras bebidas que contengan carbohidratos." />
 
                 <ImageView
                     android:id="@+id/imageView35"

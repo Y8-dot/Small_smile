@@ -9,8 +9,8 @@
     tools:context=".activity_wicit">
 
     <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="601dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="1dp">
 
@@ -37,7 +37,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginLeft="8dp"
-                android:text="Es la presencia de caries en los dientes primarios mejor conocidos como ''dientes de leche'' en niños menores de 6 años."
+                android:layout_marginRight="8dp"
+                android:text="🦷Es la presencia de caries en los dientes primarios mejor conocidos como ''dientes de leche'' en niños menores de 6 años."
                 android:textAlignment="gravity"
                 android:textColor="#0A0B0C"
                 android:textSize="25dp" />
@@ -55,7 +56,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="30dp"
                 android:layout_marginLeft="8dp"
-                android:text="Es de las enfermedades orales más comunes y crónicas durante la infancia."
+                android:layout_marginRight="8dp"
+                android:text="🦷Es de las enfermedades orales más comunes y crónicas durante la infancia."
                 android:textAlignment="gravity"
                 android:textColor="#0A0B0C"
                 android:textSize="25dp" />
@@ -66,7 +68,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="8dp"
-                android:text="Afecta a más de 600 millones de niños a nivel mundial."
+                android:layout_marginRight="8dp"
+                android:text="🦷Afecta a más de 600 millones de niños a nivel mundial."
                 android:textAlignment="gravity"
                 android:textColor="#0A0B0C"
                 android:textSize="25dp" />
@@ -77,7 +80,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="8dp"
-                android:text="El principal causante de las caries es el Strepcoccus mutans, es un tipo de bacteria que se encuentra normalmente en la superficie de los dientes."
+                android:layout_marginRight="8dp"
+                android:text="🦷El principal causante de las caries es el Strepcoccus mutans, es un tipo de bacteria que se encuentra normalmente en la superficie de los dientes."
                 android:textAlignment="gravity"
                 android:textColor="#0A0B0C"
                 android:textSize="25dp" />

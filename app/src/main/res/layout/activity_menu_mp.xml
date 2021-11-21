@@ -44,6 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="onClick"
+            android:background="@drawable/boton_redondo"
             app:srcCompat="@drawable/cinco" />
 
         <TextView
@@ -52,7 +53,6 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginTop="50dp"
-            android:background="@drawable/boton_redondo"
             android:text="Más formas de prevenir la CIT"
             android:textColor="@color/teal_700"
             android:textSize="20dp"
@@ -62,6 +62,7 @@
             android:id="@+id/imageButton12"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/boton_redondo"
             android:onClick="onClick"
             app:srcCompat="@drawable/caries_dredondo" />
 

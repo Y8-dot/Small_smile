@@ -33,22 +33,22 @@ public class activity_child4 extends AppCompatActivity {
                 break;
 
             case R.id.imageButton15:
-                myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("asdasd"));
+                myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.dentist.care.pocoyo.doctor.kids.games"));
                 startActivity(myIntent);
                 break;
 
             case R.id.imageButton16:
-                myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("asdas"));
+                myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=skidos.preschool.kids.doctor.game"));
                 startActivity(myIntent);
                 break;
 
             case R.id.imageButton17:
-                myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("asda"));
+                myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=com.bonbongame.crazy.dentist.doctor"));
                 startActivity(myIntent);
                 break;
 
             case R.id.imageButton18:
-                myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("asds"));
+                myIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id=ru.mimizavr.brush.teeth"));
                 startActivity(myIntent);
                 break;
 
